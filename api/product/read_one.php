@@ -4,7 +4,7 @@
 	// return a json content type
 	header( "Content-Type: application/json; CHARSET=UTF-8" );
 	// get request for fetching data
-	header( "Access-Control-Allow-Method: GET" );
+	header( "Access-Control-Allow-Methods: GET" );
 	// allow credentials
 	header( "Access-Control-Allow-Credentials: true" );
 	// allowed headers

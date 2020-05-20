@@ -4,7 +4,7 @@
 	// return json content type
 	header( "Content-Type: application/json; CHARSET=UTF-8" );
 	// only allow POST method
-	header( "Access-Control-Allow-Method: POST" );
+	header( "Access-Control-Allow-Methods: POST" );
 	// specifies how many seconds can be result to be cached	
 	header( "Access-Control-Max-Age: 3600" );
 	// it specifies the supported request header
